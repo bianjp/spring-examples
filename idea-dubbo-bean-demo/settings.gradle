@@ -1,0 +1,6 @@
+rootProject.name = 'idea-dubbo-bean-demo'
+
+include 'api'
+include 'provider'
+include 'consumer'
+

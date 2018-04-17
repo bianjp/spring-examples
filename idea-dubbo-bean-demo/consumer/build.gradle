@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+version '0.1.0-SNAPSHOT'
+sourceCompatibility = 1.8
+
+dependencies {
+    compile project(':api')
+}
