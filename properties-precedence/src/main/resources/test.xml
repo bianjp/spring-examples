@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://www.springframework.org/schema/beans"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+
+  <bean id="testProperties2" class="com.bianjp.spring.examples.config.TestProperties">
+    <property name="origin" value="${test.origin}"/>
+  </bean>
+  <bean id="test2Properties" class="com.bianjp.spring.examples.config.Test2Properties">
+    <property name="origin" value="${test.origin}"/>
+  </bean>
+</beans>
